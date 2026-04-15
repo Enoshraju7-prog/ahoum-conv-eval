@@ -11,6 +11,24 @@ services:
     volumes:
       - ollama_data:/root/.ollama   # persists downloaded models
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # Pulls the model after Ollama is healthy — runs once then exits
+  model-pull:
+    image: ollama/ollama:latest
+    container_name: ahoum_model_pull
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    entrypoint: ["ollama", "pull", "qwen2.5:7b"]
+    volumes:
+      - ollama_data:/root/.ollama
 
   # FastAPI backend
   api:
@@ -24,7 +42,8 @@ services:
     volumes:
       - ./data:/app/data    # persists scores between runs
     depends_on:
-      - ollama
+      model-pull:
+        condition: service_completed_successfully
     restart: unless-stopped
 
   # Streamlit UI

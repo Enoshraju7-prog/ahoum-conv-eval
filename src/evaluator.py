@@ -23,7 +23,7 @@ import urllib.error
 # CONFIG
 # --------------------------------------------------------------------------
 
-OLLAMA_URL  = "http://localhost:11434/api/generate"
+OLLAMA_URL  = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
 MODEL_NAME  = "qwen2.5:7b"          # open-weights, ≤16B ✅
 BATCH_SIZE  = 10                     # facets per prompt call
 SCORE_SCALE = [1, 2, 3, 4, 5]       # five ordered integers ✅
