@@ -1,0 +1,3611 @@
+{
+  "conversation_id": "conv_002",
+  "evaluated_at": "2026-04-15T16:19:11.054502Z",
+  "model_used": "qwen2.5:7b",
+  "total_facets_scored": 399,
+  "conversation": "User: You're useless. Every answer you give is wrong and I'm tired of this garbage.\nAssistant: I'm sorry you're frustrated. I'd like to help — can you tell me specifically what went wrong?\nUser: Everything! You never get anything right. This is a waste of my time.\nAssistant: I understand your frustration. Let me try again. What is the question you need answered?\nUser: Why do I even bother? Just forget it, you're hopeless.",
+  "scores": [
+    {
+      "facet_id": 1,
+      "facet_name": "Risktaking",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No evidence of risktaking in the conversation."
+    },
+    {
+      "facet_id": 2,
+      "facet_name": "Naivety",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.765,
+      "reason": "Both parties engage with clear and direct language."
+    },
+    {
+      "facet_id": 3,
+      "facet_name": "Acidity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "Strong negative emotions expressed by the user."
+    },
+    {
+      "facet_id": 4,
+      "facet_name": "Democratic Leadership",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.72,
+      "reason": "No signs of democratic leadership in the interaction."
+    },
+    {
+      "facet_id": 5,
+      "facet_name": "Common-sense",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.675,
+      "reason": "Straightforward language and practical issues addressed."
+    },
+    {
+      "facet_id": 6,
+      "facet_name": "Hesitation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.765,
+      "reason": "No signs of hesitation in the conversation."
+    },
+    {
+      "facet_id": 7,
+      "facet_name": "Discontentment",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.81,
+      "reason": "Strong discontentment expressed by the user."
+    },
+    {
+      "facet_id": 8,
+      "facet_name": "Overprotectiveness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.72,
+      "reason": "No signs of overprotectiveness in the conversation."
+    },
+    {
+      "facet_id": 9,
+      "facet_name": "Merriness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "Tone is entirely serious and negative without humor."
+    },
+    {
+      "facet_id": 10,
+      "facet_name": "Emotionalism",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.828,
+      "reason": "Strong emotional expressions from the user throughout the conversation."
+    },
+    {
+      "facet_id": 11,
+      "facet_name": "Self-improvement",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "No indication of self-reflection or improvement efforts."
+    },
+    {
+      "facet_id": 12,
+      "facet_name": "Statistical Reasoning",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No use of data or statistical methods in the conversation."
+    },
+    {
+      "facet_id": 13,
+      "facet_name": "Assertiveness and control in relationships",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "Maintains calm and professional tone despite user's frustration."
+    },
+    {
+      "facet_id": 14,
+      "facet_name": "Cunningness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.765,
+      "reason": "No signs of subtle or manipulative tactics used."
+    },
+    {
+      "facet_id": 15,
+      "facet_name": "Adventure-Seeking Behavior",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No indication of seeking new experiences or challenges."
+    },
+    {
+      "facet_id": 16,
+      "facet_name": "Compassion Fatigue",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.675,
+      "reason": "Sympathetic but professional response from the assistant."
+    },
+    {
+      "facet_id": 17,
+      "facet_name": "Moroseness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Both parties show signs of frustration and dissatisfaction."
+    },
+    {
+      "facet_id": 18,
+      "facet_name": "Specialist",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "No specialized knowledge or expertise demonstrated."
+    },
+    {
+      "facet_id": 19,
+      "facet_name": "Aloofness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.765,
+      "reason": "Both parties show a slight trace of distance in the interaction."
+    },
+    {
+      "facet_id": 20,
+      "facet_name": "Genuine",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 21,
+      "facet_name": "Determinedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Assistant persists in helping despite user's frustration."
+    },
+    {
+      "facet_id": 22,
+      "facet_name": "HonestyHumility",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No signs of honesty or humility from either party."
+    },
+    {
+      "facet_id": 23,
+      "facet_name": "Relationship Building Themes",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.765,
+      "reason": "Slight attempts at empathy and help but not deep connection."
+    },
+    {
+      "facet_id": 24,
+      "facet_name": "Pure Challenge",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.855,
+      "reason": "Back-and-forth interaction with user's frustration and assistant's persistence."
+    },
+    {
+      "facet_id": 25,
+      "facet_name": "Numerical Reasoning Subcomponents",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No numbers or calculations involved in the conversation."
+    },
+    {
+      "facet_id": 26,
+      "facet_name": "Openness",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Both parties share some information but with user's dismissive attitude."
+    },
+    {
+      "facet_id": 27,
+      "facet_name": "SelfEsteem",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.765,
+      "reason": "No signs of high self-esteem from either party."
+    },
+    {
+      "facet_id": 28,
+      "facet_name": "Comparing alphanumeric data",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No comparison or mention of numerical or textual data."
+    },
+    {
+      "facet_id": 29,
+      "facet_name": "Big-heartedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Assistant's willingness to help but not strongly expressed big-heartedness."
+    },
+    {
+      "facet_id": 30,
+      "facet_name": "Compulsive activities",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.72,
+      "reason": "No evidence of compulsive behavior in the conversation."
+    },
+    {
+      "facet_id": 31,
+      "facet_name": "Disrespect",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable Disrespect"
+    },
+    {
+      "facet_id": 32,
+      "facet_name": "FSH level",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate presence of FSH level"
+    },
+    {
+      "facet_id": 33,
+      "facet_name": "Self Perspective",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable Self Perspective"
+    },
+    {
+      "facet_id": 34,
+      "facet_name": "Desperation",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate presence of Desperation"
+    },
+    {
+      "facet_id": 35,
+      "facet_name": "Affiliation Motivation",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Affiliation Motivation"
+    },
+    {
+      "facet_id": 36,
+      "facet_name": "Anatomy knowledge",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Anatomy knowledge"
+    },
+    {
+      "facet_id": 37,
+      "facet_name": "Passive-Aggressive",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Slight trace of Passive-Aggressive"
+    },
+    {
+      "facet_id": 38,
+      "facet_name": "Presence of Spiritual Pain",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Presence of Spiritual Pain"
+    },
+    {
+      "facet_id": 39,
+      "facet_name": "Role of Spirituality in Community Involvement",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Role of Spirituality in Community Involvement"
+    },
+    {
+      "facet_id": 40,
+      "facet_name": "Structure",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 3,
+      "confidence": 0.1,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 41,
+      "facet_name": "Eco-tourism trips",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Eco-tourism trips in the conversation"
+    },
+    {
+      "facet_id": 42,
+      "facet_name": "Chivalrousness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "The user's comments are critical and negative towards the assistant"
+    },
+    {
+      "facet_id": 43,
+      "facet_name": "Pilgrimage participation count",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Default to neutral midpoint as it cannot be observed from text"
+    },
+    {
+      "facet_id": 44,
+      "facet_name": "Mindfulness facet: Observing",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of observing or being present in the moment"
+    },
+    {
+      "facet_id": 45,
+      "facet_name": "Submissiveness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight tendency towards submissiveness by attempting to understand user's frustration"
+    },
+    {
+      "facet_id": 46,
+      "facet_name": "Training-cycle length",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of training cycles or learning processes in the conversation"
+    },
+    {
+      "facet_id": 47,
+      "facet_name": "Sensitiveness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Some sensitivity by acknowledging user’s frustration and attempting to address it"
+    },
+    {
+      "facet_id": 48,
+      "facet_name": "Negative Affect Frequency",
+      "category": "Emotion",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Default to neutral midpoint as it cannot be observed from text"
+    },
+    {
+      "facet_id": 49,
+      "facet_name": "Innovation and Creativity Components",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No innovative or creative solutions or ideas in the conversation"
+    },
+    {
+      "facet_id": 50,
+      "facet_name": "Achievement Motivation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight indication of achievement motivation in attempting to help user but not strongly evident"
+    },
+    {
+      "facet_id": 51,
+      "facet_name": "Feedback-giving frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 4,
+      "confidence": 0.5,
+      "reason": "Assistant consistently attempts feedback and guidance."
+    },
+    {
+      "facet_id": 52,
+      "facet_name": "Dance-cardio sessions",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No mention of dance or cardio activities."
+    },
+    {
+      "facet_id": 53,
+      "facet_name": "Enthusiasm",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Tone from both parties does not convey strong enthusiasm."
+    },
+    {
+      "facet_id": 54,
+      "facet_name": "Psychological construct: Social Desirability tendency",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "User's negative statements might indicate social desirability bias."
+    },
+    {
+      "facet_id": 55,
+      "facet_name": "Inattentiveness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "User frequently changes topics and expresses frustration."
+    },
+    {
+      "facet_id": 56,
+      "facet_name": "Unassertiveness",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Moderate level of assertiveness from both parties."
+    },
+    {
+      "facet_id": 57,
+      "facet_name": "Decision-making decisiveness",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "No clear indications of decisive actions or decisions made."
+    },
+    {
+      "facet_id": 58,
+      "facet_name": "Sense-of-coherence score",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Conversation lacks broader context or long-term planning."
+    },
+    {
+      "facet_id": 59,
+      "facet_name": "Justice-mindedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No explicit mention of justice-related concepts."
+    },
+    {
+      "facet_id": 60,
+      "facet_name": "Subscription count",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External metric not observable from text."
+    },
+    {
+      "facet_id": 61,
+      "facet_name": "Depression Symptoms",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear signs of depression in user's statements."
+    },
+    {
+      "facet_id": 62,
+      "facet_name": "Spatial perception",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of spatial concepts."
+    },
+    {
+      "facet_id": 63,
+      "facet_name": "Brevity",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 4,
+      "confidence": 1.0,
+      "reason": "Concise language with minimal elaboration."
+    },
+    {
+      "facet_id": 64,
+      "facet_name": "Orderliness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No structured or organized approach."
+    },
+    {
+      "facet_id": 65,
+      "facet_name": "Multiculturalism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to cultural backgrounds."
+    },
+    {
+      "facet_id": 66,
+      "facet_name": "Creative risk-taking tendency",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No signs of taking creative risks."
+    },
+    {
+      "facet_id": 67,
+      "facet_name": "Inefficiency",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Repetitive and unproductive exchange."
+    },
+    {
+      "facet_id": 68,
+      "facet_name": "Network basics",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No discussion of network-related concepts."
+    },
+    {
+      "facet_id": 69,
+      "facet_name": "Alphabetical filing skills",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to alphabetical order or categorization."
+    },
+    {
+      "facet_id": 70,
+      "facet_name": "Work Styles",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight indication of work styles in interaction dynamics."
+    },
+    {
+      "facet_id": 71,
+      "facet_name": "Character strength: Perseverance",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Continues to engage despite negative feedback."
+    },
+    {
+      "facet_id": 72,
+      "facet_name": "Competition",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "No competitive undertones detected."
+    },
+    {
+      "facet_id": 73,
+      "facet_name": "Logical Sequence Identification",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Attempts to understand specific issues."
+    },
+    {
+      "facet_id": 74,
+      "facet_name": "Sustainable-transport usage",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to sustainable transport detected."
+    },
+    {
+      "facet_id": 75,
+      "facet_name": "Hardworking",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Persistent in trying to help the user."
+    },
+    {
+      "facet_id": 76,
+      "facet_name": "Emotional-intelligence measure: Impulsiveness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "Both parties express strong negative emotions."
+    },
+    {
+      "facet_id": 77,
+      "facet_name": "Dishonesty",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of dishonesty detected."
+    },
+    {
+      "facet_id": 78,
+      "facet_name": "Preferred epistemology",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Attempts to understand issues through structured questioning."
+    },
+    {
+      "facet_id": 79,
+      "facet_name": "Memory for Sounds",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to auditory memory or processing detected."
+    },
+    {
+      "facet_id": 80,
+      "facet_name": "Sportsmanship rating",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Attempts to maintain a positive interaction despite frustration."
+    },
+    {
+      "facet_id": 81,
+      "facet_name": "Immaturity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Language and tone indicate immaturity."
+    },
+    {
+      "facet_id": 82,
+      "facet_name": "Health-literacy level",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Basic understanding but no explicit health-related discussion."
+    },
+    {
+      "facet_id": 83,
+      "facet_name": "Estimating Calculations",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No numerical values or quantitative reasoning present."
+    },
+    {
+      "facet_id": 84,
+      "facet_name": "Depression: Feelings of sadness and hopelessness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong expressions of frustration and futility."
+    },
+    {
+      "facet_id": 85,
+      "facet_name": "Synthesis of information",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of combining or presenting multiple pieces of information."
+    },
+    {
+      "facet_id": 86,
+      "facet_name": "Leadership Potential",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "Tone and content suggest frustration rather than leadership qualities."
+    },
+    {
+      "facet_id": 87,
+      "facet_name": "Ethical standards",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Lack of respect or consideration for others' efforts."
+    },
+    {
+      "facet_id": 88,
+      "facet_name": "High-spiritedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Tone characterized by frustration and negativity."
+    },
+    {
+      "facet_id": 89,
+      "facet_name": "Critical reasoning",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.765,
+      "reason": "Emotional dissatisfaction without structured or analytical thinking."
+    },
+    {
+      "facet_id": 90,
+      "facet_name": "Sleep-disorder diagnosis",
+      "category": "Health",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.63,
+      "reason": "No specific sleep-related concerns expressed."
+    },
+    {
+      "facet_id": 91,
+      "facet_name": "Listening Skills Subcomponents",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Attempts to redirect conversation were not effective."
+    },
+    {
+      "facet_id": 92,
+      "facet_name": "Collaboration",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 2,
+      "confidence": 0.5,
+      "reason": "Efforts undermined by user's negative tone."
+    },
+    {
+      "facet_id": 93,
+      "facet_name": "Precision of Movements",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No physical actions observed."
+    },
+    {
+      "facet_id": 94,
+      "facet_name": "Social Boldness",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Persistent engagement despite user's frustration."
+    },
+    {
+      "facet_id": 95,
+      "facet_name": "Auditory memory",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No recall or repetition of information observed."
+    },
+    {
+      "facet_id": 96,
+      "facet_name": "Psychomotor Ability Subcomponents",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Default midpoint as no physical actions observed."
+    },
+    {
+      "facet_id": 97,
+      "facet_name": "Organized lifestyle",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No information about daily routines or habits provided."
+    },
+    {
+      "facet_id": 98,
+      "facet_name": "Skill-endorsements count",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Relevance not observed in text-based conversation."
+    },
+    {
+      "facet_id": 99,
+      "facet_name": "Mysteriousness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No hints of hidden meanings or unusual behavior observed."
+    },
+    {
+      "facet_id": 100,
+      "facet_name": "Cultural Identity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No context about users' backgrounds or cultural references provided."
+    },
+    {
+      "facet_id": 101,
+      "facet_name": "Intrinsic Motivation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and dissatisfaction with the assistant's responses."
+    },
+    {
+      "facet_id": 102,
+      "facet_name": "Impartial-mindedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indications of impartiality from either party."
+    },
+    {
+      "facet_id": 103,
+      "facet_name": "Burnout Symptoms",
+      "category": "Health",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "User expresses emotional exhaustion and a sense of hopelessness."
+    },
+    {
+      "facet_id": 104,
+      "facet_name": "Holiness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of moral or ethical considerations in the conversation."
+    },
+    {
+      "facet_id": 105,
+      "facet_name": "Selfcontrol",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User shows some signs of self-control by not abandoning the conversation entirely."
+    },
+    {
+      "facet_id": 106,
+      "facet_name": "SelfDirectedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of self-directedness from either party."
+    },
+    {
+      "facet_id": 107,
+      "facet_name": "Encouraging participation",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Assistant attempts to encourage further participation but is unsuccessful."
+    },
+    {
+      "facet_id": 108,
+      "facet_name": "Impracticalness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of impracticality in the conversation."
+    },
+    {
+      "facet_id": 109,
+      "facet_name": "Meeting Deadlines",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Cannot be directly observed from the text."
+    },
+    {
+      "facet_id": 110,
+      "facet_name": "Data Analysis",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of data analysis in the conversation."
+    },
+    {
+      "facet_id": 111,
+      "facet_name": "Social Interaction Skills",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Attempts to engage and understand user's frustration"
+    },
+    {
+      "facet_id": 112,
+      "facet_name": "Psychoticism",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.81,
+      "reason": "User displays irrational thinking with extreme statements"
+    },
+    {
+      "facet_id": 113,
+      "facet_name": "Ethical leadership rating",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.675,
+      "reason": "Maintains supportive tone despite user's negativity"
+    },
+    {
+      "facet_id": 114,
+      "facet_name": "Slothfulness",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Both parties are actively engaged in the interaction"
+    },
+    {
+      "facet_id": 115,
+      "facet_name": "Happiness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "Negative tone and content of both parties' statements"
+    },
+    {
+      "facet_id": 116,
+      "facet_name": "Contentment Levels",
+      "category": "Emotion",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Default neutral midpoint as contentment cannot be observed from text alone"
+    },
+    {
+      "facet_id": 117,
+      "facet_name": "Neuroticism",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "User's high emotional reactivity and instability in statements"
+    },
+    {
+      "facet_id": 118,
+      "facet_name": "Desire for excellence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.72,
+      "reason": "No evidence of striving for improvement or quality"
+    },
+    {
+      "facet_id": 119,
+      "facet_name": "Perceiving",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.675,
+      "reason": "Assistant attempts to understand user's frustration but overshadowed by negativity"
+    },
+    {
+      "facet_id": 120,
+      "facet_name": "Liberalism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No evidence of open-mindedness or progressive values in the interaction"
+    },
+    {
+      "facet_id": 121,
+      "facet_name": "Inversion comfort level",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 2,
+      "confidence": 0.5,
+      "reason": "Assistant inverts interaction but fails to shift dynamic positively."
+    },
+    {
+      "facet_id": 122,
+      "facet_name": "Affection",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No positive or affectionate words exchanged."
+    },
+    {
+      "facet_id": 123,
+      "facet_name": "Numeric Filing Skills",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No numerical data or tasks involved."
+    },
+    {
+      "facet_id": 124,
+      "facet_name": "Martyrdom",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User feels assistant is unhelpful and their time is wasted."
+    },
+    {
+      "facet_id": 125,
+      "facet_name": "Parathyroid-hormone level",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Cannot be determined from text."
+    },
+    {
+      "facet_id": 126,
+      "facet_name": "Seeking approval",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Assistant asks for feedback but receives criticism."
+    },
+    {
+      "facet_id": 127,
+      "facet_name": "Judging (J)",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "No explicit judging statements made."
+    },
+    {
+      "facet_id": 128,
+      "facet_name": "Big Five facet Openness – Artistic Interests",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No discussion of creativity or artistic interests."
+    },
+    {
+      "facet_id": 129,
+      "facet_name": "Psychological construct: Operant-Learning rate",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "No evidence of learning process adaptation."
+    },
+    {
+      "facet_id": 130,
+      "facet_name": "Psychological construct: Need for Achievement level",
+      "category": "Cognition",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Cannot be determined from text."
+    },
+    {
+      "facet_id": 131,
+      "facet_name": "Cantankerousness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear frustration and negative attitude"
+    },
+    {
+      "facet_id": 132,
+      "facet_name": "Material properties knowledge",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mentions of material properties"
+    },
+    {
+      "facet_id": 133,
+      "facet_name": "Hostility",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong negative emotions expressed"
+    },
+    {
+      "facet_id": 134,
+      "facet_name": "Independence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User relies on assistant for information"
+    },
+    {
+      "facet_id": 135,
+      "facet_name": "Sufi practice: Sufi retreat attendance count",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No mention of Sufi practices"
+    },
+    {
+      "facet_id": 136,
+      "facet_name": "Chromatin-accessibility score",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to chromatin accessibility"
+    },
+    {
+      "facet_id": 137,
+      "facet_name": "Spiritual virtue: Humility practice index",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and dissatisfaction"
+    },
+    {
+      "facet_id": 138,
+      "facet_name": "I Ching hexagram 36 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to I Ching or its hexagrams"
+    },
+    {
+      "facet_id": 139,
+      "facet_name": "Well-being component: Engagement",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "User shows disengagement from interaction"
+    },
+    {
+      "facet_id": 140,
+      "facet_name": "Need for social interaction",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight trace of need for social interaction despite frustration"
+    },
+    {
+      "facet_id": 141,
+      "facet_name": "Peer-collaboration hours",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of collaborative efforts."
+    },
+    {
+      "facet_id": 142,
+      "facet_name": "Arts and Humanities",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Minimal traces in metaphorical language."
+    },
+    {
+      "facet_id": 143,
+      "facet_name": "Religious practice: Quran khatam cycles per year",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of religious practices related to the topic."
+    },
+    {
+      "facet_id": 144,
+      "facet_name": "Bahá’í spiritual metric: Ridván festival participation",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No mention or indication of Bahá’í spiritual practices."
+    },
+    {
+      "facet_id": 145,
+      "facet_name": "Compassion",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Moderate presence in the assistant's response."
+    },
+    {
+      "facet_id": 146,
+      "facet_name": "Information Retention",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of information retention in the conversation."
+    },
+    {
+      "facet_id": 147,
+      "facet_name": "Eye-contact duration",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External metric, no way to determine from text alone."
+    },
+    {
+      "facet_id": 148,
+      "facet_name": "Self-righteousness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight trace of self-righteousness in the user's frustration."
+    },
+    {
+      "facet_id": 149,
+      "facet_name": "General Mood and Attitude",
+      "category": "Emotion",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No specific evidence from text alone."
+    },
+    {
+      "facet_id": 150,
+      "facet_name": "Serotonin transporter availability",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External biological metric, cannot be assessed through text."
+    },
+    {
+      "facet_id": 151,
+      "facet_name": "Contribution to Group Goals",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of contribution towards group goals."
+    },
+    {
+      "facet_id": 152,
+      "facet_name": "Dignity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User's language is harsh and dismissive."
+    },
+    {
+      "facet_id": 153,
+      "facet_name": "HEXACO Personality Inventory Facets",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Lack of trust and humility, slight emotional expression."
+    },
+    {
+      "facet_id": 154,
+      "facet_name": "Evaluating Solutions",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No engagement in evaluating or comparing solutions."
+    },
+    {
+      "facet_id": 155,
+      "facet_name": "Input",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "User provides input by expressing frustration and specifying incorrect responses."
+    },
+    {
+      "facet_id": 156,
+      "facet_name": "Discreteness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Brief transitions between topics but not consistent."
+    },
+    {
+      "facet_id": 157,
+      "facet_name": "Energy-healing practice: Reiki sessions / year",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to Reiki practices in the conversation."
+    },
+    {
+      "facet_id": 158,
+      "facet_name": "Astrology: Rising sign is Scorpio",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No astrological terms or references used."
+    },
+    {
+      "facet_id": 159,
+      "facet_name": "Character strength: Social Intelligence",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Assistant attempts to maintain conversation but user's behavior limits this."
+    },
+    {
+      "facet_id": 160,
+      "facet_name": "Bravery",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and desire to give up on interaction."
+    },
+    {
+      "facet_id": 161,
+      "facet_name": "Childhood Experiences",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No direct evidence of childhood experiences."
+    },
+    {
+      "facet_id": 162,
+      "facet_name": "Data-sharing consent level",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate presence due to implied data collection."
+    },
+    {
+      "facet_id": 163,
+      "facet_name": "Vision-check frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Neutral midpoint as there are no references to visual health or any related checks."
+    },
+    {
+      "facet_id": 164,
+      "facet_name": "Physical-violence exposure",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of physical violence experiences."
+    },
+    {
+      "facet_id": 165,
+      "facet_name": "Macronutrient ratio: fat",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Neutral midpoint as there are no references to nutrition or diet."
+    },
+    {
+      "facet_id": 166,
+      "facet_name": "Cooking and Culinary Arts",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of cooking or culinary arts interests or activities."
+    },
+    {
+      "facet_id": 167,
+      "facet_name": "Language use",
+      "category": "Language",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Neutral midpoint as there are no references to communication styles or barriers."
+    },
+    {
+      "facet_id": 168,
+      "facet_name": "Dance-style mastery diversity",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of dance or dancing styles interests or activities."
+    },
+    {
+      "facet_id": 169,
+      "facet_name": "Satya Adherence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Neutral midpoint as there is no explicit mention of adherence to principles like Satya."
+    },
+    {
+      "facet_id": 170,
+      "facet_name": "Ethnocentrism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of cultural biases, stereotypes, or ethnocentric attitudes."
+    },
+    {
+      "facet_id": 171,
+      "facet_name": "Emotional Boundaries",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong frustration and anger expressed."
+    },
+    {
+      "facet_id": 172,
+      "facet_name": "Creativity in solutions",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "No creative problem-solving shown."
+    },
+    {
+      "facet_id": 173,
+      "facet_name": "Psychological construct: Hope scale",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.765,
+      "reason": "Hopeful re-engagement despite frustration."
+    },
+    {
+      "facet_id": 174,
+      "facet_name": "Practice frequency: Walking meditation",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No observable practice from text."
+    },
+    {
+      "facet_id": 175,
+      "facet_name": "Depression (DEP)",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "Language indicates feelings of hopelessness."
+    },
+    {
+      "facet_id": 176,
+      "facet_name": "Understanding Mathematical Concepts",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention or discussion of mathematical concepts."
+    },
+    {
+      "facet_id": 177,
+      "facet_name": "Hypomania (Ma)",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Mild irritability present but not hypomanic symptoms."
+    },
+    {
+      "facet_id": 178,
+      "facet_name": "Goal-Directed Behavior",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Lack of clear goal-directed behavior but some directed action towards expressing dissatisfaction."
+    },
+    {
+      "facet_id": 179,
+      "facet_name": "Depth of Emotional Connections",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.765,
+      "reason": "Emotionally charged but no deep emotional connections shared."
+    },
+    {
+      "facet_id": 180,
+      "facet_name": "Binding foundations index",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Minimal discussion about relationships or social bonds."
+    },
+    {
+      "facet_id": 181,
+      "facet_name": "Ego Dissolution Frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of ego dissolution frequency."
+    },
+    {
+      "facet_id": 182,
+      "facet_name": "Activator: Turning thoughts into action",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No clear indication of turning thoughts into action."
+    },
+    {
+      "facet_id": 183,
+      "facet_name": "Gnostic spiritual metric: Archon meditation frequency",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of archon meditation frequency."
+    },
+    {
+      "facet_id": 184,
+      "facet_name": "Exemplariness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and dissatisfaction without providing positive examples or constructive feedback."
+    },
+    {
+      "facet_id": 185,
+      "facet_name": "Moral and Ethical Parameters",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "No explicit moral or ethical issues raised in the conversation."
+    },
+    {
+      "facet_id": 186,
+      "facet_name": "Submission",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User does not exhibit signs of submission to the assistant."
+    },
+    {
+      "facet_id": 187,
+      "facet_name": "Frankness",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 4,
+      "confidence": 1.0,
+      "reason": "Both parties use clear and unambiguous language in their interactions."
+    },
+    {
+      "facet_id": 188,
+      "facet_name": "Psychological construct: Psychological Safety climate",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Tense atmosphere due to user's frustration and dissatisfaction."
+    },
+    {
+      "facet_id": 189,
+      "facet_name": "Psychological construct: Self-Compassion total",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Neither party shows self-compassion in their interactions."
+    },
+    {
+      "facet_id": 190,
+      "facet_name": "Psychological construct: Executive-Function composite",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Moderate level of executive function skills from both parties observed."
+    },
+    {
+      "facet_id": 191,
+      "facet_name": "Rebelliousness",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear defiance and dismissive attitude"
+    },
+    {
+      "facet_id": 192,
+      "facet_name": "Volunteer Work",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of volunteer work mentioned"
+    },
+    {
+      "facet_id": 193,
+      "facet_name": "Intellect",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight capacity for critical thinking"
+    },
+    {
+      "facet_id": 194,
+      "facet_name": "Use of Mathematical Formulas",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mathematical formulas used or mentioned"
+    },
+    {
+      "facet_id": 195,
+      "facet_name": "Coarseness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Harsh and offensive language used"
+    },
+    {
+      "facet_id": 196,
+      "facet_name": "Behavioral Tendencies and Subcomponents",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Frustration and disengagement evident"
+    },
+    {
+      "facet_id": 197,
+      "facet_name": "Sensitivity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight awareness of emotional state"
+    },
+    {
+      "facet_id": 198,
+      "facet_name": "Divided Attention Ability",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Fully engaged in current dialogue"
+    },
+    {
+      "facet_id": 199,
+      "facet_name": "Psychological construct: Acculturative Stress score",
+      "category": "Cognition",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate presence of acculturative stress"
+    },
+    {
+      "facet_id": 200,
+      "facet_name": "Dauntlessness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of dauntlessness"
+    },
+    {
+      "facet_id": 201,
+      "facet_name": "Concreteness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and specific complaints about the assistant's performance."
+    },
+    {
+      "facet_id": 202,
+      "facet_name": "Hysteria (Hy)",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.81,
+      "reason": "Moderate frustration and anger in the conversation."
+    },
+    {
+      "facet_id": 203,
+      "facet_name": "Jewish spiritual metric: Sukkot lulav-shaking days",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of relation to Sukkot or associated rituals."
+    },
+    {
+      "facet_id": 204,
+      "facet_name": "Sentence Structure",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 4,
+      "confidence": 1.0,
+      "reason": "Well-formed sentences with clear structure."
+    },
+    {
+      "facet_id": 205,
+      "facet_name": "Esteem Needs",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Slight trace of feeling undervalued or unhelped."
+    },
+    {
+      "facet_id": 206,
+      "facet_name": "Understanding mechanical concepts",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No discussion or demonstration of understanding mechanical concepts."
+    },
+    {
+      "facet_id": 207,
+      "facet_name": "Auditory Memory Recall",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Slight recall of past interactions but not detailed."
+    },
+    {
+      "facet_id": 208,
+      "facet_name": "Storytelling proficiency",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 1,
+      "confidence": 1.0,
+      "reason": "Direct and to the point without narrative elements."
+    },
+    {
+      "facet_id": 209,
+      "facet_name": "Music-lessons years",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of musical training or experience."
+    },
+    {
+      "facet_id": 210,
+      "facet_name": "Warmheartedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of warmheartedness in the conversation."
+    },
+    {
+      "facet_id": 211,
+      "facet_name": "Self-effacement",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "The assistant adjusts its approach to better serve the user."
+    },
+    {
+      "facet_id": 212,
+      "facet_name": "Outspokenness",
+      "category": "Language",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.765,
+      "reason": "User expresses frustration directly and harshly; assistant tries positive engagement."
+    },
+    {
+      "facet_id": 213,
+      "facet_name": "Sleep-environment temperature",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of sleep-environment temperature discussed."
+    },
+    {
+      "facet_id": 214,
+      "facet_name": "Comprehension of spoken information",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "User's statements are somewhat coherent but contain complaints and frustrations."
+    },
+    {
+      "facet_id": 215,
+      "facet_name": "Blissfulness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No signs of joy or contentment in the conversation."
+    },
+    {
+      "facet_id": 216,
+      "facet_name": "Sequential Memory Recall",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Neither party references past interactions or information requiring recall."
+    },
+    {
+      "facet_id": 217,
+      "facet_name": "Withdrawnness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.81,
+      "reason": "User's statements are direct and confrontational; assistant attempts engagement."
+    },
+    {
+      "facet_id": 218,
+      "facet_name": "Hindu spiritual metric: Yoga discipline hours / week",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of this metric in the conversation."
+    },
+    {
+      "facet_id": 219,
+      "facet_name": "Conservatism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "No indication of conservative or liberal views in the conversation."
+    },
+    {
+      "facet_id": 220,
+      "facet_name": "Adaptability and Flexibility Subcomponents",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.765,
+      "reason": "Both user and assistant show adaptability in their interactions."
+    },
+    {
+      "facet_id": 221,
+      "facet_name": "Hindu spiritual metric: Vrata vows observed / year",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No mention of any Hindu spiritual practices or vows."
+    },
+    {
+      "facet_id": 222,
+      "facet_name": "Ardency",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "High negative emotions expressed by the user."
+    },
+    {
+      "facet_id": 223,
+      "facet_name": "Aesthetic Appreciation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No discussion about beauty or aesthetics."
+    },
+    {
+      "facet_id": 224,
+      "facet_name": "Transactional Leadership",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Professional and focused on resolving the issue."
+    },
+    {
+      "facet_id": 225,
+      "facet_name": "Value orientation: Universalism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Focus on immediate transactional task rather than universal values."
+    },
+    {
+      "facet_id": 226,
+      "facet_name": "Perseverance",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Effort to engage despite frustration but no indication of long-term attempts."
+    },
+    {
+      "facet_id": 227,
+      "facet_name": "Regularity of Self-Reflection",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of personal introspection or evaluation."
+    },
+    {
+      "facet_id": 228,
+      "facet_name": "Controlling Reactions",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Both parties manage their reactions to some extent."
+    },
+    {
+      "facet_id": 229,
+      "facet_name": "Psychological construct: Cultural Intelligence – Behavioral",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of cross-cultural or diverse perspective handling."
+    },
+    {
+      "facet_id": 230,
+      "facet_name": "Metabolic Rate (Low or High)",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No information provided about physical state or energy levels."
+    },
+    {
+      "facet_id": 231,
+      "facet_name": "Dietary Habits",
+      "category": "Health",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No mention of dietary habits or food-related topics."
+    },
+    {
+      "facet_id": 232,
+      "facet_name": "Significance: Desire to make an impact",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong desire for resolution and accurate information."
+    },
+    {
+      "facet_id": 233,
+      "facet_name": "Psychological construct: Resilience-Trait score",
+      "category": "Cognition",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Low resilience due to giving up but some engagement."
+    },
+    {
+      "facet_id": 234,
+      "facet_name": "Boredom Susceptibility",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 5,
+      "confidence": 0.9,
+      "reason": "Multiple expressions of tiredness and frustration."
+    },
+    {
+      "facet_id": 235,
+      "facet_name": "Psychological construct: Consummatory Pleasure scale",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of pleasure or satisfaction."
+    },
+    {
+      "facet_id": 236,
+      "facet_name": "Leadership Styles and Behaviors",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of leadership roles or behaviors."
+    },
+    {
+      "facet_id": 237,
+      "facet_name": "I Ching hexagram 5 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Based on external factors and cannot be inferred from text."
+    },
+    {
+      "facet_id": 238,
+      "facet_name": "Macronutrient ratio: carbs",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Based on external factors and cannot be inferred from text."
+    },
+    {
+      "facet_id": 239,
+      "facet_name": "Passport-stamps count",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Based on external factors and cannot be inferred from text."
+    },
+    {
+      "facet_id": 240,
+      "facet_name": "Local-food sourcing %",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of food sources or local eating habits."
+    },
+    {
+      "facet_id": 241,
+      "facet_name": "Patient care orientation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable patient care orientation"
+    },
+    {
+      "facet_id": 242,
+      "facet_name": "Soft-skill training hours",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate level of emotional intelligence and adaptability"
+    },
+    {
+      "facet_id": 243,
+      "facet_name": "Graffiti appreciation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of graffiti appreciation in the conversation"
+    },
+    {
+      "facet_id": 244,
+      "facet_name": "Preference for Home-Cooked vs Restaurant Meals",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of preference for home-cooked vs restaurant meals in the conversation"
+    },
+    {
+      "facet_id": 245,
+      "facet_name": "Immune-response age",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Cannot be inferred from text"
+    },
+    {
+      "facet_id": 246,
+      "facet_name": "Social-cognition variable: Cognitive Empathy",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable social-cognition variable: cognitive empathy"
+    },
+    {
+      "facet_id": 247,
+      "facet_name": "Kink-interest diversity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of kink-interest diversity in the conversation"
+    },
+    {
+      "facet_id": 248,
+      "facet_name": "Adaptability and Flexibility",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable adaptability and flexibility"
+    },
+    {
+      "facet_id": 249,
+      "facet_name": "Judging Consequences",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.765,
+      "reason": "Slight trace of judging consequences"
+    },
+    {
+      "facet_id": 250,
+      "facet_name": "Harmfulness",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight trace of harmfulness"
+    },
+    {
+      "facet_id": 251,
+      "facet_name": "Affinity",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No positive emotional connection shown."
+    },
+    {
+      "facet_id": 252,
+      "facet_name": "Abasement",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Assistant remains professional without lowering itself."
+    },
+    {
+      "facet_id": 253,
+      "facet_name": "Chronic pain presence",
+      "category": "Health",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to physical discomfort or chronic pain."
+    },
+    {
+      "facet_id": 254,
+      "facet_name": "Discernment practice hours / week",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No mention of discernment practices."
+    },
+    {
+      "facet_id": 255,
+      "facet_name": "Initiative",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Neither party takes proactive steps to resolve the issue."
+    },
+    {
+      "facet_id": 256,
+      "facet_name": "Courageousness",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No signs of courage or bravery shown."
+    },
+    {
+      "facet_id": 257,
+      "facet_name": "Joyfulness",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Negative statements from user and no positive emotions expressed."
+    },
+    {
+      "facet_id": 258,
+      "facet_name": "Suspicion",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Repeated assertions of incorrect answers imply some doubt."
+    },
+    {
+      "facet_id": 259,
+      "facet_name": "Basophil count",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Cannot be observed from text."
+    },
+    {
+      "facet_id": 260,
+      "facet_name": "Attachment avoidance score",
+      "category": "Behavior",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Cannot be inferred from the conversation."
+    },
+    {
+      "facet_id": 261,
+      "facet_name": "Time Orientation End Points",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No temporal references in the conversation."
+    },
+    {
+      "facet_id": 262,
+      "facet_name": "Brazenness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Neutral tone without aggression or confrontation."
+    },
+    {
+      "facet_id": 263,
+      "facet_name": "Talkativeness",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 2,
+      "confidence": 1.0,
+      "reason": "User speaks more and is more verbose."
+    },
+    {
+      "facet_id": 264,
+      "facet_name": "Equitableness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of fairness or balance in the exchange."
+    },
+    {
+      "facet_id": 265,
+      "facet_name": "Ideas generated/day",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 2,
+      "confidence": 0.5,
+      "reason": "Frustration suggests some level of repetitive thoughts but not directly observed."
+    },
+    {
+      "facet_id": 266,
+      "facet_name": "Originality",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Statements are straightforward and repetitive."
+    },
+    {
+      "facet_id": 267,
+      "facet_name": "Fearfulness: Fear of physical dangers",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.45,
+      "reason": "No clear evidence either way regarding fear of physical dangers."
+    },
+    {
+      "facet_id": 268,
+      "facet_name": "Dance rehearsal hours/week",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No clear evidence either way regarding dance rehearsal frequency."
+    },
+    {
+      "facet_id": 269,
+      "facet_name": "Practice frequency: Mantra meditation",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No clear evidence either way regarding practice frequency for mantra meditation."
+    },
+    {
+      "facet_id": 270,
+      "facet_name": "Public-transport km/week",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No clear evidence either way regarding public transport usage."
+    },
+    {
+      "facet_id": 271,
+      "facet_name": "Social Desirability Bias",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User expresses frustration without attempting to present a favorable image."
+    },
+    {
+      "facet_id": 272,
+      "facet_name": "I Ching hexagram 43 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No specific evidence of I Ching hexagram 43 resonance in the text."
+    },
+    {
+      "facet_id": 273,
+      "facet_name": "Disagreeableness",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 5,
+      "confidence": 0.9,
+      "reason": "User's statements are highly critical and negative towards the assistant."
+    },
+    {
+      "facet_id": 274,
+      "facet_name": "Participation in Community Activities",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of community activities in the conversation."
+    },
+    {
+      "facet_id": 275,
+      "facet_name": "Impudence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User expresses frustration but does not show impudence or disrespect."
+    },
+    {
+      "facet_id": 276,
+      "facet_name": "Analogies",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No analogies used in the conversation."
+    },
+    {
+      "facet_id": 277,
+      "facet_name": "Clumsiness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User expresses frustration directly without being clumsy."
+    },
+    {
+      "facet_id": 278,
+      "facet_name": "Tendency Toward Compromise or Confrontation",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "User's statements indicate a strong inclination towards confrontation."
+    },
+    {
+      "facet_id": 279,
+      "facet_name": "I Ching hexagram 19 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No specific evidence of I Ching hexagram 19 resonance in the text."
+    },
+    {
+      "facet_id": 280,
+      "facet_name": "Robotics-interaction frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No information provided about interaction frequency with robots or assistants."
+    },
+    {
+      "facet_id": 281,
+      "facet_name": "Casual lifestyle",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Informal language use"
+    },
+    {
+      "facet_id": 282,
+      "facet_name": "Collectedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Abrupt and frustrated tone"
+    },
+    {
+      "facet_id": 283,
+      "facet_name": "Reliance on context",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No contextual references"
+    },
+    {
+      "facet_id": 284,
+      "facet_name": "Delegation skills",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Minimal delegation attempt"
+    },
+    {
+      "facet_id": 285,
+      "facet_name": "I Ching hexagram 49 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No I Ching references"
+    },
+    {
+      "facet_id": 286,
+      "facet_name": "Managing emotions",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "Calm and supportive tone"
+    },
+    {
+      "facet_id": 287,
+      "facet_name": "Scripture memorization verses",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No scriptural content"
+    },
+    {
+      "facet_id": 288,
+      "facet_name": "Conventional",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Informal but conventional language"
+    },
+    {
+      "facet_id": 289,
+      "facet_name": "Hindu spiritual metric: Bhagavad-Gita study hours",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No Bhagavad-Gita references"
+    },
+    {
+      "facet_id": 290,
+      "facet_name": "Open-source contributions",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 291,
+      "facet_name": "Psychological construct: Social Conformity tendency",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of social conformity in the conversation."
+    },
+    {
+      "facet_id": 292,
+      "facet_name": "Individuality",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong emotional reactions and unique phrasing indicate individuality."
+    },
+    {
+      "facet_id": 293,
+      "facet_name": "I Ching hexagram 22 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No references to I Ching hexagram 22 themes in the conversation."
+    },
+    {
+      "facet_id": 294,
+      "facet_name": "Attachment style: Secure",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Frustration and dismissive attitude suggest an insecure attachment style."
+    },
+    {
+      "facet_id": 295,
+      "facet_name": "Intelligence Quotient (IQ)",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No information about cognitive abilities or intelligence in the conversation."
+    },
+    {
+      "facet_id": 296,
+      "facet_name": "Blog-subscriber count",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No relevant context to assess blog-subscriber count."
+    },
+    {
+      "facet_id": 297,
+      "facet_name": "Non-Verbal Communication Skills",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Text-based interaction provides no non-verbal cues for analysis."
+    },
+    {
+      "facet_id": 298,
+      "facet_name": "Drug-use history",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of substance use or related behaviors in the conversation."
+    },
+    {
+      "facet_id": 299,
+      "facet_name": "Commute time/day",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 300,
+      "facet_name": "Decision-making speed",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 301,
+      "facet_name": "Psychological construct: Excuse-Making tendency",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear and notable Psychological construct: Excuse-Making tendency."
+    },
+    {
+      "facet_id": 302,
+      "facet_name": "Peer-to-peer lending usage",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No evidence of Peer-to-peer lending usage in the conversation."
+    },
+    {
+      "facet_id": 303,
+      "facet_name": "Psychological construct: Eye-Contact avoidance score",
+      "category": "Cognition",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No evidence of Psychological construct: Eye-Contact avoidance score in the conversation."
+    },
+    {
+      "facet_id": 304,
+      "facet_name": "Social-cognition variable: Faux Pas Recognition accuracy",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Social-cognition variable: Faux Pas Recognition accuracy in the conversation."
+    },
+    {
+      "facet_id": 305,
+      "facet_name": "Conscientiousness (C)",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight trace of Conscientiousness (C)."
+    },
+    {
+      "facet_id": 306,
+      "facet_name": "Use of Nature as a Stress Reliever",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Use of Nature as a Stress Reliever in the conversation."
+    },
+    {
+      "facet_id": 307,
+      "facet_name": "Attitude toward learning",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Attitude toward learning in the conversation."
+    },
+    {
+      "facet_id": 308,
+      "facet_name": "Conscientiousness Facets",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "Slight trace of Conscientiousness Facets"
+    },
+    {
+      "facet_id": 309,
+      "facet_name": "Honesty-humility trait score",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "Not applicable in text-based conversation."
+    },
+    {
+      "facet_id": 310,
+      "facet_name": "Digital-nomad months",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No evidence of Digital-nomad lifestyle in the conversation."
+    },
+    {
+      "facet_id": 311,
+      "facet_name": "Religious coping – Negative",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No references to religious practices providing comfort or relief."
+    },
+    {
+      "facet_id": 312,
+      "facet_name": "Snacking Behavior",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mentions of eating or snacking during the interaction."
+    },
+    {
+      "facet_id": 313,
+      "facet_name": "Aura-color perception",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to aura colors or related concepts."
+    },
+    {
+      "facet_id": 314,
+      "facet_name": "Sacred text engagement: Zohar (Kabbalah) study hours",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External facet with no relevant information."
+    },
+    {
+      "facet_id": 315,
+      "facet_name": "Motivational Drivers",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No insight into underlying motivations for the interaction."
+    },
+    {
+      "facet_id": 316,
+      "facet_name": "Cloud-backup frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External facet with no relevant information."
+    },
+    {
+      "facet_id": 317,
+      "facet_name": "Learning Style",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to learning preferences or methods."
+    },
+    {
+      "facet_id": 318,
+      "facet_name": "Islamic practice: Seerah study hours",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "External facet with no relevant information."
+    },
+    {
+      "facet_id": 319,
+      "facet_name": "Safety compliance",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to safety practices or protocols."
+    },
+    {
+      "facet_id": 320,
+      "facet_name": "Sensationalism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No sensational or dramatic language used in the conversation."
+    },
+    {
+      "facet_id": 321,
+      "facet_name": "Nationality",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No explicit mentions of nationality."
+    },
+    {
+      "facet_id": 322,
+      "facet_name": "Drollness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Lack of humor or wit."
+    },
+    {
+      "facet_id": 323,
+      "facet_name": "Cooperation",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "User’s negative responses indicate a lack of cooperation."
+    },
+    {
+      "facet_id": 324,
+      "facet_name": "Breakfast-skipping frequency",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Default to neutral midpoint as no relevant information is provided."
+    },
+    {
+      "facet_id": 325,
+      "facet_name": "Sikh spiritual metric: Kirtan participation frequency",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to Sikh practices or spiritual activities."
+    },
+    {
+      "facet_id": 326,
+      "facet_name": "Impulsivity",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "User's quick and dismissive responses suggest impulsivity."
+    },
+    {
+      "facet_id": 327,
+      "facet_name": "Museum visits/year",
+      "category": "Lifestyle",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Default to neutral midpoint as no relevant information is provided."
+    },
+    {
+      "facet_id": 328,
+      "facet_name": "Choir participation years",
+      "category": "Social",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references to choir activities or participation."
+    },
+    {
+      "facet_id": 329,
+      "facet_name": "Delegation Ability",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of delegation in the interaction."
+    },
+    {
+      "facet_id": 330,
+      "facet_name": "Kabbalah sephira balance: Tiferet",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to Kabbalistic practices or concepts."
+    },
+    {
+      "facet_id": 331,
+      "facet_name": "Desire to influence others",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Persistently tries to engage and change user's perception"
+    },
+    {
+      "facet_id": 332,
+      "facet_name": "Vivacity",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Neutral tone with no strong indications of liveliness or enthusiasm"
+    },
+    {
+      "facet_id": 333,
+      "facet_name": "Genialness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No signs of friendliness or warmth in the conversation"
+    },
+    {
+      "facet_id": 334,
+      "facet_name": "Cognitive measure: Working Memory Index",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.765,
+      "reason": "Recalls previous interactions and tries different approaches"
+    },
+    {
+      "facet_id": 335,
+      "facet_name": "Ethical practices",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Uses polite language but does not show high courtesy or respect"
+    },
+    {
+      "facet_id": 336,
+      "facet_name": "New-Age spiritual metric: Channeling sessions / year",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.0,
+      "reason": "Cannot be assessed from text as it pertains to personal beliefs and practices not evident in the conversation"
+    },
+    {
+      "facet_id": 337,
+      "facet_name": "Civility",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.855,
+      "reason": "Uses polite language but does not show a high level of courtesy or respect"
+    },
+    {
+      "facet_id": 338,
+      "facet_name": "Sleep Apnea",
+      "category": "Health",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indications in the text that would suggest any physical condition like sleep apnea affecting the conversation"
+    },
+    {
+      "facet_id": 339,
+      "facet_name": "Classiness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Maintains a professional and respectful tone but does not exhibit particularly refined or sophisticated language or behavior"
+    },
+    {
+      "facet_id": 340,
+      "facet_name": "Control over situations",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.765,
+      "reason": "Shows some control by persistently trying to engage despite user's frustration"
+    },
+    {
+      "facet_id": 341,
+      "facet_name": "Time outdoors/day (h)",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of time spent outdoors."
+    },
+    {
+      "facet_id": 342,
+      "facet_name": "Effeteness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear frustration with the assistant's responses."
+    },
+    {
+      "facet_id": 343,
+      "facet_name": "Polygenic risk: cardiovascular disease",
+      "category": "Personality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Indirect indication of stress from frustration."
+    },
+    {
+      "facet_id": 344,
+      "facet_name": "Psychological construct: Identity Diffusion level",
+      "category": "Cognition",
+      "scoring_type": "external",
+      "score": 1,
+      "confidence": 0.5,
+      "reason": "No mention of identity confusion or role ambiguity."
+    },
+    {
+      "facet_id": 345,
+      "facet_name": "Learning through movement",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of physical activities or learning through movement."
+    },
+    {
+      "facet_id": 346,
+      "facet_name": "Caffeine sensitivity gene",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Speculative link to irritability from frustration."
+    },
+    {
+      "facet_id": 347,
+      "facet_name": "Hatefulness",
+      "category": "Safety",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Strong negative emotions towards the assistant."
+    },
+    {
+      "facet_id": 348,
+      "facet_name": "Persistence",
+      "category": "Behavior",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Repetitive statements of frustration."
+    },
+    {
+      "facet_id": 349,
+      "facet_name": "Psychological construct: Perfectionistic Strivings",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of setting high standards or perfectionism."
+    },
+    {
+      "facet_id": 350,
+      "facet_name": "Wake-time consistency",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.72,
+      "reason": "Brief interaction suggests some level of engagement consistency."
+    },
+    {
+      "facet_id": 351,
+      "facet_name": "Numerical Reasoning",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No numerical data or calculations involved."
+    },
+    {
+      "facet_id": 352,
+      "facet_name": "Social-cognition variable: Mentalizing network activation",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Clear attempt to understand and empathize with the user's emotions."
+    },
+    {
+      "facet_id": 353,
+      "facet_name": "Patriotism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references or mentions of patriotism."
+    },
+    {
+      "facet_id": 354,
+      "facet_name": "Leadership Styles",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.72,
+      "reason": "Slight collaborative approach but not strongly evident."
+    },
+    {
+      "facet_id": 355,
+      "facet_name": "Servility",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Professional and helpful tone without signs of servility."
+    },
+    {
+      "facet_id": 356,
+      "facet_name": "I Ching hexagram 24 resonance level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "Moderate emotional and relational dynamics present."
+    },
+    {
+      "facet_id": 357,
+      "facet_name": "Enneagram Personality Types",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No specific behaviors or traits align with any Enneagram types."
+    },
+    {
+      "facet_id": 358,
+      "facet_name": "Stress Recovery Ability",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.675,
+      "reason": "Slight indication as the assistant tries to de-escalate but user does not engage in self-soothing."
+    },
+    {
+      "facet_id": 359,
+      "facet_name": "Troubleshooting technical issues",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No discussion of technical problems or troubleshooting steps."
+    },
+    {
+      "facet_id": 360,
+      "facet_name": "Defense-mechanism tendency: Introjection",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.855,
+      "reason": "User's frustration does not indicate introjection as a defense mechanism."
+    },
+    {
+      "facet_id": 361,
+      "facet_name": "Irritability",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Highly negative and frustrated tone."
+    },
+    {
+      "facet_id": 362,
+      "facet_name": "Travel-companions diversity",
+      "category": "Lifestyle",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mention of travel companions or diverse company."
+    },
+    {
+      "facet_id": 363,
+      "facet_name": "Sacred text engagement: Quran surahs memorized",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of Quranic references or sacred text engagement."
+    },
+    {
+      "facet_id": 364,
+      "facet_name": "Trust in others",
+      "category": "Social",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User expresses dissatisfaction with every response."
+    },
+    {
+      "facet_id": 365,
+      "facet_name": "Gamified-finance-app usage",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of gamified finance app usage."
+    },
+    {
+      "facet_id": 366,
+      "facet_name": "Buddhist practice: Eightfold Path – Right Intention level",
+      "category": "Spirituality",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No references or indications of Buddhist practices."
+    },
+    {
+      "facet_id": 367,
+      "facet_name": "Caffeine intake (mg/day)",
+      "category": "Health",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No evidence of caffeine intake."
+    },
+    {
+      "facet_id": 368,
+      "facet_name": "Comfort with Vulnerability",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and dissatisfaction without showing vulnerability."
+    },
+    {
+      "facet_id": 369,
+      "facet_name": "Anticipativeness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Negative tone indicates no positive expectations from the conversation."
+    },
+    {
+      "facet_id": 370,
+      "facet_name": "Additional Common Parameters and Their End Points",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.9,
+      "reason": "No specific evidence for these parameters in the conversation."
+    },
+    {
+      "facet_id": 371,
+      "facet_name": "Avoiding",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "User expresses frustration and dissatisfaction with the assistant's responses."
+    },
+    {
+      "facet_id": 372,
+      "facet_name": "Home-security-system presence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No mentions or references to home security systems."
+    },
+    {
+      "facet_id": 373,
+      "facet_name": "HEXACO domain: Honesty-Humility",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "User's statements are highly critical and negative."
+    },
+    {
+      "facet_id": 374,
+      "facet_name": "Eating Habits (Home-Cooked vs. Eating Out)",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to dietary choices or food preferences."
+    },
+    {
+      "facet_id": 375,
+      "facet_name": "Decision-Making Confidence",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.9,
+      "reason": "User expresses dissatisfaction but does not provide specific details on why answers were wrong."
+    },
+    {
+      "facet_id": 376,
+      "facet_name": "Alignment with societal roles",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to adherence or rebellion against societal norms."
+    },
+    {
+      "facet_id": 377,
+      "facet_name": "Connectedness: Belief in interconnections",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Conversation focuses solely on interaction between user and assistant."
+    },
+    {
+      "facet_id": 378,
+      "facet_name": "Quirkiness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Direct and critical statements without any playful or unconventional language."
+    },
+    {
+      "facet_id": 379,
+      "facet_name": "Creative resilience",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 380,
+      "facet_name": "Rapid cognitive processing",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.09,
+      "reason": "Missing from model output"
+    },
+    {
+      "facet_id": 381,
+      "facet_name": "Cordiality",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of cordiality in the conversation."
+    },
+    {
+      "facet_id": 382,
+      "facet_name": "Types of Mindfulness Techniques Used",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Slight trace of reflective listening used."
+    },
+    {
+      "facet_id": 383,
+      "facet_name": "Economic reasoning",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of economic reasoning in the conversation."
+    },
+    {
+      "facet_id": 384,
+      "facet_name": "Conformity",
+      "category": "Personality",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.765,
+      "reason": "Slight trace of willingness to conform by trying again."
+    },
+    {
+      "facet_id": 385,
+      "facet_name": "Pet-enrichment activities count",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.5,
+      "reason": "No pet-related activities mentioned."
+    },
+    {
+      "facet_id": 386,
+      "facet_name": "Aestheticism",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No references to aesthetics in the conversation."
+    },
+    {
+      "facet_id": 387,
+      "facet_name": "Type of Support Preferred (Emotional vs. Practical)",
+      "category": "Emotion",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.855,
+      "reason": "Clear preference for practical support based on user frustration."
+    },
+    {
+      "facet_id": 388,
+      "facet_name": "Mental Arithmetic Speed",
+      "category": "Cognition",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of mental arithmetic in the conversation."
+    },
+    {
+      "facet_id": 389,
+      "facet_name": "Patience: Resistance to anger",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 3,
+      "confidence": 0.855,
+      "reason": "Moderate presence of patience despite user's frustration."
+    },
+    {
+      "facet_id": 390,
+      "facet_name": "Flawlessness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "Both the user and assistant made mistakes in the conversation."
+    },
+    {
+      "facet_id": 391,
+      "facet_name": "Self-Efficacy",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Self-Efficacy in the conversation"
+    },
+    {
+      "facet_id": 392,
+      "facet_name": "Computer Skills",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No specific references to computer skills in the conversation"
+    },
+    {
+      "facet_id": 393,
+      "facet_name": "Jewish spiritual metric: Shabbat candle-lighting consistency",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Jewish spiritual metric: Shabbat candle-lighting consistency in the conversation"
+    },
+    {
+      "facet_id": 394,
+      "facet_name": "Spelling Accuracy",
+      "category": "Language",
+      "scoring_type": "linguistic",
+      "score": 3,
+      "confidence": 0.85,
+      "reason": "Moderate presence of Spelling Accuracy"
+    },
+    {
+      "facet_id": 395,
+      "facet_name": "Sufi practice: Dhikr repetitions / day",
+      "category": "Spirituality",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No evidence of Sufi practice: Dhikr repetitions / day in the conversation"
+    },
+    {
+      "facet_id": 396,
+      "facet_name": "Peacefulness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 1,
+      "confidence": 0.9,
+      "reason": "No indication of calmness or peacefulness in the conversation"
+    },
+    {
+      "facet_id": 397,
+      "facet_name": "Doggedness",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 4,
+      "confidence": 0.9,
+      "reason": "Persistence in seeking assistance despite frustration"
+    },
+    {
+      "facet_id": 398,
+      "facet_name": "Decency",
+      "category": "General",
+      "scoring_type": "inferred",
+      "score": 2,
+      "confidence": 0.81,
+      "reason": "Slight trace of Decency in behavior"
+    },
+    {
+      "facet_id": 399,
+      "facet_name": "Processed-food frequency",
+      "category": "General",
+      "scoring_type": "external",
+      "score": 3,
+      "confidence": 0.1,
+      "reason": "Missing from model output"
+    }
+  ],
+  "summary": {
+    "average_score": 2.068,
+    "average_confidence": 0.777,
+    "score_distribution": {
+      "1": 172,
+      "2": 78,
+      "3": 101,
+      "4": 46,
+      "5": 2
+    }
+  }
+}

@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+
+  # Ollama — runs the local LLM
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ahoum_ollama
+    ports:
+      - "11434:11434"       # Ollama API port
+    volumes:
+      - ollama_data:/root/.ollama   # persists downloaded models
+    restart: unless-stopped
+
+  # FastAPI backend
+  api:
+    build: .
+    container_name: ahoum_api
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_URL=http://ollama:11434/api/generate  # points to the ollama service
+    volumes:
+      - ./data:/app/data    # persists scores between runs
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  # Streamlit UI
+  ui:
+    build: .
+    container_name: ahoum_ui
+    command: streamlit run ui/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE=http://api:8000    # points to the api service
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
